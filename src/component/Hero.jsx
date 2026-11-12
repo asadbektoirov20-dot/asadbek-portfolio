@@ -2,6 +2,8 @@ import '../App.css';
 
 import React from 'react'
 
+
+
 const Hero = () => {
   return (
     <div>
@@ -13,8 +15,8 @@ const Hero = () => {
     <h2>Men Frontend dasturchisiman</h2>
 
     <div className="btns">
-    <button className='inform'>Malumot</button>
-    <button className='call'><img src="https://cdn-icons-png.flaticon.com/128/159/159832.png" alt="" width={'45px'} /></button>
+    <button className='inform' onClick={ () => alert("Barcha ma'lumotlar boshqa sahifalarda") }>Malumot</button>
+    <button className='call' onClick={() => alert("+998 88 223 22 75")}><img src="https://cdn-icons-png.flaticon.com/128/159/159832.png" alt="" width={'45px'} /></button>
     </div>
     </section>
 
