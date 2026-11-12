@@ -1,0 +1,94 @@
+.hero4 {
+    width: 70%;
+    height: 90vh;
+    align-items: center;
+    gap: 10px;
+    background-color: #040b14;
+    border-radius: 20px;
+    margin: 40px 550px;
+    border: 2px solid white;
+    overflow-y: auto;
+}
+
+.hero4 h2 {
+    margin: 30px 35px;
+    font-size: 33px;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 2px;
+    border-bottom: 1px solid white;
+    width: 40px;
+    padding-bottom: 10px;
+}
+
+.email-location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -160px;
+}
+
+.mail input {
+    width: 500px;
+    height: 50px;
+    background-color: #040b14;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+}
+.mail input:nth-child(4) {
+    height: 130px;
+}
+
+.sendBtn {
+    width: 140px;
+    height: 45px;
+    background-color: #00abf0;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+}
+.sendBtn:hover {
+    background-color: #040b14;
+    border: 2px solid #00abf0;
+}
+
+.location {
+    width: 350px;
+    height: 380px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+}
+.location span {
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+}
+.location h3 {
+    font-size: 18px;
+    font-style: italic;
+}
