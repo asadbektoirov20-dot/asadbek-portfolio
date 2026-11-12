@@ -8,7 +8,7 @@ const Hero = () => {
 
     <section className="hero">
 
-    <img className="myImage" src="myImage.jpg" alt=""></img>
+    <img className="myImage" src="/myImage.jpg" alt=""></img>
     <h1>Toirov Asadbek</h1>
     <h2>Men Frontend dasturchisiman</h2>
 

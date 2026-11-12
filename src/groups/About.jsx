@@ -15,7 +15,7 @@ const About = () => {
                 <div className="inform2">
 
                     <div className="informImg">
-                        <img src="photo_2026-10-20_15-42-02.jpg" alt="" />
+                        <img src="/myImage.jpg" alt="" />
                     </div>
 
                     <div className="informParagraph">
